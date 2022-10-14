@@ -380,22 +380,70 @@
     box-shadow: 0px 5px 200px rgba(0, 119, 255, 0.253);
 }
 
-.list-style-hr {
-    background-color: #42526d;
-    width: 1603px;
-    height: 2px;
-    border-radius: 15px;
-    z-index: 1;
-    transform: rotate(90deg);
-    right: 721px;
+.ssr {
+    border-left: 2px solid #42526d;
+    height: 179px;
     position: absolute;
-    margin-top: 1127px;
+    margin-top: -88.2%;
+    margin-left: 8.3%;
+}
+.ssr-2 {
+    border-left: 2px solid #42526d;
+    height: 24px;
+    position: absolute;
+    margin-top: -77%;
+    margin-left: 8.3%;
+}
+.ssr-3 {
+    border-left: 2px solid #42526d;
+    height: 55px;
+    position: absolute;
+    margin-top: -74.6%;
+    margin-left: 8.3%;
+}
+.ssr-4 {
+    border-left: 2px solid #42526d;
+    height: 45px;
+    position: absolute;
+    margin-top: -32.8%;
+    margin-left: 8.3%;
+}
+.ssr-5 {
+    border-left: 2px solid #42526d;
+    height: 32px;
+    position: absolute;
+    margin-top: -29.4%;
+    margin-left: 8.3%;
+}
+.ssr-6 {
+    border-left: 2px solid #42526d;
+    height: 414px;
+    position: absolute;
+    margin-top: -26.6%;
+    margin-left: 8.3%;
+}
+.ssr-7 {
+    border-left: 2px solid #42526d;
+    height: 54px;
+    position: absolute;
+    margin-top: -3.7%;
+    margin-left: 8.3%;
 }
 
-@media onlyrgb(255, 255, 255)een and (max-width : 393px){
-    .cikinti{
-        margin-top: 38%;
-        margin-left: -800px;
+.ilk-li-responsive{
+    padding-left: 48px;
+}
+
+.metin-responsive{
+    margin-left: 48px;
+    margin-top: 48px;
+}
+
+@media only screen and (max-width : 393px) {
+    
+    .cikinti {
+        margin-top: 4%;
+        margin-left: -200%;
     }
 
 
@@ -403,7 +451,7 @@
         position: absolute;
         width: 320px;
         height: 320px;
-        margin-top: -100px;
+        margin-top: -210px;
         margin-left: 15px;
     }
 
@@ -453,5 +501,125 @@
 
     .footer-kayma-p{
         padding-left: 160px !important;
+    }
+
+    .body-2-header{
+        display: none;
+    }
+
+    .big-text {
+        margin-left: 45px;
+        margin-top: 30px;
+    }
+
+    .ul-custom-ayarlama{
+        list-style-type: none;
+        padding-left: 3%;
+        margin-top: 3%;
+        list-style-image: url('circle.png');
+    }
+
+    .ilk-li-responsive{
+        padding-left: 5px;
+    }
+
+    .kayar-resim-1{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        box-shadow: 0px 5px 200px rgba(0, 119, 255, 0.253);
+        width: 462px;
+        height: 310px;
+        margin-left: 0;
+    }
+
+    .kayar-resim-2{
+        box-shadow: 0px 5px 200px rgba(0, 119, 255, 0.253);
+        margin-left: 45px;
+        margin-top: 250px;
+        width: 340px;
+        height: 220px;
+    }
+
+    .metin-responsive{
+        margin-left: -340px;
+        margin-top: -270px;
+
+    }
+
+    .img-2{
+        margin-top: 60px;
+    }
+
+    .a-custom-1{
+        text-decoration: none;
+        color: #fff;
+        font-size: 17px;
+    }
+
+    .a-custom-2{
+        font-size: 17px;
+    }
+    
+    .a-custom-3{
+        font-size: 30px !important;
+    }
+
+    .ssr {
+        border-left: 2px solid #42526d;
+        height: 148px;
+        position: absolute;
+        margin-top: -352%;
+        margin-left: 6.8%;
+    }
+    .ssr-2 {
+        border-left: 2px solid #42526d;
+        height: 27px;
+        position: absolute;
+        margin-top: -305.8%;
+        margin-left: 6.8%;
+    }
+    .ssr-3 {
+        border-left: 2px solid #42526d;
+        height: 58px;
+        position: absolute;
+        margin-top: -294.6%;
+        margin-left: 6.8%;
+    }
+    .ssr-4 {
+        border-left: 2px solid #42526d;
+        height: 45px;
+        position: absolute;
+        margin-top: -200.9%;
+        margin-left: 6.8%;
+    }
+    .ssr-5 {
+        border-left: 2px solid #42526d;
+        height: 34px;
+        position: absolute;
+        margin-top: -184.9%;
+        margin-left: 6.8%;
+    }
+    .ssr-6 {
+        border-left: 2px solid #42526d;
+        height: 584px;
+        position: absolute;
+        margin-top: -171.9%;
+        margin-left: 6.8%;
+    }
+    .ssr-7 {
+        border-left: 2px solid #42526d;
+        height: 56px;
+        position: absolute;
+        margin-top: -18.4%;
+        margin-left: 6.8%;
+    }
+
+    .responsive-metin-1{
+        font-size: 16px !important;
+    }
+
+    .responsive-metin-2{
+        font-size: 16px !important;
     }
 }
