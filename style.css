@@ -147,6 +147,10 @@
     display: block;
 }
 
+.custom-responsive-2{
+    display: flex;
+}
+
 .a-ayar{
     list-style-type: none;
     text-decoration: none;
@@ -439,6 +443,20 @@
     margin-top: 48px;
 }
 
+.custom-responsive-5{
+    display: flex;
+}
+
+.custom-responsive-7{
+    padding-left: 36px;
+    padding-top: 24px;
+}
+
+.start-free-position{
+    margin-top: 16px;
+    margin-left: 8px;
+}
+
 @media only screen and (max-width : 393px) {
     
     .cikinti {
@@ -621,5 +639,63 @@
 
     .responsive-metin-2{
         font-size: 16px !important;
+    }
+
+    .ilk-kutu{
+        background-color: #040d21;
+        border-radius: 20px;
+        margin-top: 120px;
+    }
+
+    .custom-responsive-2{
+        flex-direction: column;
+    }
+
+    .markalar-responsive{
+        width: 320px;
+        margin-left: -10px;
+
+    }
+
+    .custom-responsive-3 {
+        padding-bottom: 115px;
+    }
+
+    .markalar-responsive-2 {
+        margin-right: 679px;
+        width: 364px;
+        position: absolute;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        margin-top: -115px;
+    }
+
+    .custom-responsive-4{
+        width: 380px;
+    }
+
+    .custom-responsive-5{
+        width: 152px;
+        flex-direction: column;
+        margin-left: 72px;
+    }
+
+    .custom-responsive-6{
+        margin-left: 90px !important;
+    }
+
+    .start-free-position{
+        padding-top: 10px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .responsive-custom-1{
+        padding-left: 15px;
+    }
+    
+    .responsive-custom-2{
+        padding-left: 30px;
     }
 }
